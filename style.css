@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Tahoma, Serif;
+    color: rgb(49, 49, 122);
+    background-color: #eeeef4;
+    font-family: 'Gloock', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+.pictures_all{
+    display: flex;
+    width:90%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 60px;
+}
+
+.pictures_all div{
+    background-color: rgba(49, 49, 122, 0.683);
+    color: #ffffff;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.pictures_all span{
+    font-size: 25px;
+    background-color: rgb(49, 49, 122);
+    padding: 30px;
+}
+
+.pictures_all a{
+    font-size: 25px;
+    background-color: rgb(49, 49, 122);
+    padding: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.pictures_all img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 17px;
+}
+
+ul li{
+    max-width: 90%;
+}
+
+.headline_all{
+    display: flex;
+    justify-content:left;
+    padding-left:80px;
+    padding-right: 80px;
+    padding-top: 0px;
+    height: 56px;
+    background-color: #eeeef4;
+    font-size: 25px;
+    width: 70%;
+}
+
+.headline_add{
+    height:50px;
+    width:75%;
+    background-color: #eeeef4;
+    float:right;
+    margin-right: 50px;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+.headline_add span{
+    color:rgb(160, 55, 55);
+    font-size: 25px;
+}
+
+.headline_all p1{
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.logo{
+    object-fit: cover;
+    padding-top: 20px;
+    float: left;
+    width: 10%;
+    padding-left: 55px;
+}
+
+.navbr {
+    margin-left: 100px;
+}
+
+.navbr ul{
+    background-color: aquamarine;
+}
+
+.navbr li{
+    padding-top: 0px;
+}
+
+.navbr a{
+    text-decoration: none;
+    color:rgb(49, 49, 122);
+}
+
+
+.about_me{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 400px;
+    margin-left: 60px;
+}
+
+.about_me img{
+    padding-left:100px;
+    padding-right: 150px;
+}
+
+.about_me span{
+    padding:90px;
+    line-height: 30px;
+    max-width:600px;
+}
+
+.legal_content{
+    width:100%;
+    height:30px;
+    background-color: #eeeef4;
+    padding-right: 60px;
+}
+
+.legal_content span{
+    float:right;
+    padding-right: 50px;
+}
