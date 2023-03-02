@@ -125,20 +125,21 @@ ul li{
 .about_me{
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 90%;
-    height: 400px;
     margin-left: 60px;
+    margin-right: 50px;
+    align-items: center;
 }
 
 .about_me img{
     padding-left:100px;
-    padding-right: 150px;
+    padding-right: 10px;
+    height: 400px;
 }
 
 .about_me span{
     padding:90px;
     line-height: 30px;
-    max-width:600px;
+    max-width:50%;
 }
 
 .legal_content{
@@ -151,4 +152,77 @@ ul li{
 .legal_content span{
     float:right;
     padding-right: 50px;
+}
+
+@media (max-width: 800px){  
+    html{
+        background:#eeeef4;
+        flex-direction: column;
+    }
+
+    .logo{
+        width:100px;
+        padding-top: 24px;
+
+    }
+
+    .headline_all p1{
+        display: flex;
+        width:100%;
+    }
+
+    .headline_all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 25px;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .headline_all navbr{
+        display: flex;
+        float: bottom;
+    }
+
+    .container{
+        display:flex;
+        align-items: column;
+    }
+
+
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    
+    }
+
+    .about_me img{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        height:350px;
+        float:bottom;
+    }
+
+    .about_me span{
+        line-height: 30px;
+        float: top;
+        padding-top:20px;
+    }
+
+    .pictures_all{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .pictures_all div{
+        width:100%;
+    }
+
+
+
 }
