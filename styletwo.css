@@ -13,10 +13,23 @@ body{
 }
 
 .headline{
-    width:50%;
-    height:20px;
-    margin:60px;
-    background-color: blue;
+    height:auto;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.headline h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.headline img{
+    object-fit: cover;
+    float: left;
+    height: 60px;
+    margin-right: 10%;
+    padding-top:22px;
 }
 
 .all{
@@ -25,13 +38,16 @@ body{
 
 .content{
     height:auto;
-    margin:60px;
-    padding:30px;
-    background-color: blue;
+    margin-left:60px;
+    margin-right:60px;
+    margin-top:20px;
+    padding:20px;
+    background-color: rgba(115, 115, 173, 0.603);
 }
 
 table, th, td {
-    border: 1px solid;
     text-align: left;
     width: 100%;
-  }
+    padding: 15px;
+    font-size: 20px;
+}
