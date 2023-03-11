@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Tahoma, Serif;
     color: rgb(49, 49, 122);
-    background-color: #eeeef4;
+    background-color: hwb(240 93% 4%);
     font-family: 'Gloock', serif;
     font-family: 'Lora', serif;
     font-family: 'Montserrat', sans-serif;
@@ -72,9 +72,9 @@ ul{
 }
 
 h3{
-    margin-left: 290px;
+    margin-left: 60px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 0px;
     color:#c63131
 }
