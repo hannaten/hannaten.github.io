@@ -12,18 +12,6 @@ body{
     align-items: center;
 }
 
-.headline{
-    height:auto;
-    margin-left: 60px;
-    display: flex;
-    flex-direction: row;
-}
-
-.headline h1{
-    font-size: 40px;
-    font-weight: 300;
-}
-
 .headline img{
     object-fit: cover;
     float: left;
@@ -32,18 +20,31 @@ body{
     padding-top:22px;
 }
 
-.content{
-    height:auto;
-    margin-left:60px;
-    margin-right:60px;
-    margin-top:20px;
-    padding:20px;
-    background-color: rgba(115, 115, 173, 0.603);
+.headline{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
 }
 
-table, th, td {
-    text-align: left;
-    width: 100%;
-    padding: 15px;
-    font-size: 20px;
+.headline span{
+    font-size: 40px;
+    font-weight: 300;
+    padding:10px;
+    margin-top: 22px;
+}
+
+.content{
+    padding:35px;
+    height: auto;
+    margin:20px;
+    background-color: rgba(115, 115, 173, 0.603);
+    margin-left:60px;
+    margin-right:60px;
+}
+
+
+
+.content span1{
+    font-size: 17px;
+    line-height: 30px;
 }

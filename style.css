@@ -55,66 +55,45 @@ a:hover{
 ul{
     list-style-type: none;
     text-align: left;
-    padding-top: 30px;
-    padding-left: 50px;
     font-size: 17px;
 }
 
-ul li{
-    max-width: 90%;
-}
-
-.headline_all{
+.headline{
+    margin-left: 60px;
     display: flex;
-    justify-content:left;
-    padding-left:80px;
-    padding-right: 80px;
-    padding-top: 0px;
-    height: 56px;
-    background-color: #eeeef4;
-    font-size: 25px;
-    width: 70%;
+    flex-direction: row;
 }
 
-.headline_add{
-    height:50px;
-    width:75%;
-    background-color: #eeeef4;
-    float:right;
-    margin-right: 50px;
-    margin-top: 17px;
-    margin-bottom: 30px;
-}
-
-.headline_add span{
-    color:rgb(160, 55, 55);
-    font-size: 25px;
-}
-
-.headline_all p1{
-    padding-top: 15px;
+.headline span{
     font-size: 40px;
+    font-weight: 300;
+    padding:10px;
+    margin-top: 22px;
 }
 
-.logo{
+h3{
+    margin-left: 290px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0px;
+    color:#c63131
+}
+
+.headline img{
     object-fit: cover;
-    padding-top: 20px;
     float: left;
-    width: 10%;
-    padding-left: 55px;
+    height: 60px;
+    margin-right: 10%;
+    padding-top:22px;
 }
 
-.navbr {
-    margin-left: 100px;
+.navbr{
+    height:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top:22px;
 }
 
-.navbr ul{
-    background-color: aquamarine;
-}
-
-.navbr li{
-    padding-top: 0px;
-}
 
 .navbr a{
     text-decoration: none;
