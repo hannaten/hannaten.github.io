@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Tahoma, Serif;
+    color: rgb(49, 49, 122);
+    background-color: #eeeef4;
+    font-family: 'Gloock', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+.headline{
+    width:50%;
+    height:20px;
+    margin:60px;
+    background-color: blue;
+}
+
+.all{
+
+}
+
+.content{
+    height:auto;
+    margin:60px;
+    padding:30px;
+    background-color: blue;
+}
+
+table, th, td {
+    border: 1px solid;
+    text-align: left;
+    width: 100%;
+  }
