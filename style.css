@@ -133,7 +133,7 @@ h3{
     padding-right: 50px;
 }
 
-@media (orientation: portrait) {  
+@media (width <= 900px) {  
     html{
         background:#eeeef4;
         flex-direction: column;
