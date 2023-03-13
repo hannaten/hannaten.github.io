@@ -211,22 +211,14 @@ ul{
     }
 
     .pictures_all img{
-        width:300px;
+        width:400px;
+        margin-top: 10px;
     }
     
 
     .pictures_all{
         flex-direction: column;
-        margin-bottom: 20px;
         width:90%;
-    }
-
-    .einzel{
-        margin-bottom:10px;
-    }
-
-    .gruppe{
-        margin-bottom:10px;
     }
 
     .pictures_all div{
