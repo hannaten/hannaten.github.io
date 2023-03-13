@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Tahoma, Serif;
+    color: rgb(49, 49, 122);
+    background-color: #eeeef4;
+    font-family: 'Gloock', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+.headline{
+    height:auto;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.headline h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.headline img{
+    object-fit: cover;
+    float: left;
+    height: 60px;
+    margin-right: 10%;
+    padding-top:22px;
+}
+
+.content{
+    height:auto;
+    margin-left:60px;
+    margin-right:60px;
+    margin-top:20px;
+    padding:20px;
+    background-color: rgba(115, 115, 173, 0.446);
+}
+
+table, th, td {
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
