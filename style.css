@@ -11,8 +11,6 @@ body{
     font-family: 'Raleway', sans-serif;
     align-items: center;
     width: 100%;
-    margin:0;
-    margin-right:0;
 }
 
 .pictures_all{
@@ -79,18 +77,6 @@ ul{
     justify-items: center;
 }
 
-.headline span{
-    font-size: 40px;
-    font-weight: 300;
-    padding-left:10px;
-    padding-right:10px;
-    margin-top: 22px;
-}
-
-.headline span2{
-    font-size: 22px;
-    padding:0px;
-}
 
 .headline img{
     height: 100px;
@@ -102,7 +88,8 @@ ul{
     width: 100%;
     background-color: #d33c3c;
     text-align: center;
-    padding:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .facher span{
@@ -113,6 +100,7 @@ ul{
 .navbr{
     background-color: #ffffff;
     float:right;
+    margin-left: 30%;
 }
 
 
@@ -168,40 +156,16 @@ ul{
         flex-direction: column;
     }
 
-    .headline{
-        margin-left: 60px;
-        display: flex;
-        flex-direction: column;
-        background-color: #ffffff;
-    }
-
-    .headline img{
-        height: auto;
-        object-fit: cover;
-        width:70px;
-    }
-
-    .headline span{
-        font-size: 30px;
-    }
-
-    h3{
-        font-size: 20px;
-    }
-
     .navbr{
         float:left;
-        margin:0;
-        padding: 5px;
     }
 
-    .navbr ul{
-        display: flex;
-        flex-direction: row;
+    .facher{
+
     }
 
-    ul{
-        font-size: 20px;
+    .facher span{
+        font-size: 15px;
     }
 
     .about_me{
