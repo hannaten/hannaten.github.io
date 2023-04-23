@@ -9,21 +9,21 @@ body{
     font-family: 'Playfair Display', serif;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
-    align-items: center;
     width: 100%;
 }
 
 .pictures_all{
     display: flex;
-    width:90%;
     background-color: rgb(255, 255, 255);
-    margin-left: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .pictures_all div{
     background-color: rgba(49, 49, 122, 0.683);
     color: #ffffff;
-    width: 40%;
+    width: auto;
+    height: auto;
     align-items: center;
     text-align: center;
     line-height: 20px;
@@ -119,10 +119,7 @@ ul{
 .about_me{
     display: flex;
     background-color: rgb(255, 255, 255);
-    margin-left: 60px;
-    margin-right: 50px;
-    align-items: center;
-    width:90%;
+    width:100%;
 }
 
 .about_me img{
@@ -155,6 +152,8 @@ ul{
         background:#eeeef4;
         flex-direction: column;
     }
+
+    
 
     .navbr{
         float:left;
